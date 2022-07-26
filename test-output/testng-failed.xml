@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Mobile App - Login Tests]" guice-stage="DEVELOPMENT" allow-return-values="true">
+  <listeners>
+    <listener class-name="bettervet.mobile.app.base.TestListener"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="Positive Login Test(failed)">
+    <parameter name="password" value="Helloworld10"/>
+    <parameter name="username" value="juancarlosgularte@bettervet.com"/>
+    <classes>
+      <class name="bettervet.mobile.app.tests.LoginTests">
+        <methods>
+          <include name="shutDown"/>
+          <include name="positiveLogin"/>
+          <include name="setCapabilities"/>
+          <include name="stopAppium"/>
+        </methods>
+      </class> <!-- bettervet.mobile.app.tests.LoginTests -->
+    </classes>
+  </test> <!-- Positive Login Test(failed) -->
+  <test thread-count="1" parallel="tests" name="Negative Login Test - Invalid Credentials(failed)">
+    <classes>
+      <class name="bettervet.mobile.app.tests.LoginTests">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setCapabilities"/>
+          <include name="stopAppium"/>
+          <include name="negativeLoginWithInvalidCredentials"/>
+        </methods>
+      </class> <!-- bettervet.mobile.app.tests.LoginTests -->
+    </classes>
+  </test> <!-- Negative Login Test - Invalid Credentials(failed) -->
+  <test thread-count="1" parallel="tests" name="Negative Login Test - Error Messages(failed)">
+    <parameter name="password" value="Hello"/>
+    <parameter name="error" value="Your password must contain at least one number, a capital letter and a minimum of 6 characters"/>
+    <parameter name="username" value="juancarlosgularte@bettervet.com"/>
+    <classes>
+      <class name="bettervet.mobile.app.tests.LoginTests">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setCapabilities"/>
+          <include name="negativeLoginErrors"/>
+          <include name="stopAppium"/>
+        </methods>
+      </class> <!-- bettervet.mobile.app.tests.LoginTests -->
+    </classes>
+  </test> <!-- Negative Login Test - Error Messages(failed) -->
+</suite> <!-- Failed suite [Mobile App - Login Tests] -->

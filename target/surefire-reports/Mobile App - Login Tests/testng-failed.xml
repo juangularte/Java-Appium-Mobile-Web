@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mobile App - Login Tests]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="parking.mobile.app.base.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Positive Login Test(failed)" verbose="0">
+    <parameter name="password" value="Helloworld10"/>
+    <parameter name="username" value="jcgularte@spplus.com"/>
+    <classes>
+      <class name="bettervet.mobile.app.tests.LoginTests">
+        <methods>
+          <include name="positiveLogin"/>
+          <include name="shutDown"/>
+          <include name="setCapabilities"/>
+        </methods>
+      </class> <!-- bettervet.mobile.app.tests.LoginTests -->
+    </classes>
+  </test> <!-- Positive Login Test(failed) -->
+  <test thread-count="5" name="Negative Login Test - Invalid Credentials(failed)" verbose="0">
+    <parameter name="password" value="IncorrectPwd"/>
+    <parameter name="username" value="jcgularte@spplus.com"/>
+    <parameter name="errorMsg" value="Your email address and/or password are incorrect. Please try again."/>
+    <classes>
+      <class name="bettervet.mobile.app.tests.LoginTests">
+        <methods>
+          <include name="shutDown"/>
+          <include name="negativeLoginWithInvalidCredentials"/>
+          <include name="setCapabilities"/>
+        </methods>
+      </class> <!-- bettervet.mobile.app.tests.LoginTests -->
+    </classes>
+  </test> <!-- Negative Login Test - Invalid Credentials(failed) -->
+</suite> <!-- Failed suite [Mobile App - Login Tests] -->

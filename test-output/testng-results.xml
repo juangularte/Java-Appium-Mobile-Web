@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-17T07:02:14Z" name="Mobile App - Login Tests" finished-at="2022-07-17T07:03:36Z" duration-ms="81693">
+    <groups>
+    </groups>
+    <test started-at="2022-07-17T07:02:14Z" name="Positive Login Test" finished-at="2022-07-17T07:02:42Z" duration-ms="27347">
+      <class name="bettervet.mobile.app.tests.LoginTests">
+        <test-method is-config="true" signature="setCapabilities()[pri:0, instance:bettervet.mobile.app.tests.LoginTests@119cbf96]" started-at="2022-07-17T07:02:15Z" name="setCapabilities" finished-at="2022-07-17T07:02:30Z" duration-ms="14763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCapabilities -->
+        <test-method signature="positiveLogin(java.lang.String, java.lang.String)[pri:0, instance:bettervet.mobile.app.tests.LoginTests@119cbf96]" started-at="2022-07-17T07:02:30Z" name="positiveLogin" finished-at="2022-07-17T07:02:41Z" duration-ms="11492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[juancarlosgularte@bettervet.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Helloworld10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogin -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:bettervet.mobile.app.tests.LoginTests@119cbf96]" started-at="2022-07-17T07:02:41Z" name="shutDown" finished-at="2022-07-17T07:02:42Z" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- bettervet.mobile.app.tests.LoginTests -->
+    </test> <!-- Positive Login Test -->
+    <test started-at="2022-07-17T07:02:42Z" name="Negative Login Test - Invalid Credentials" finished-at="2022-07-17T07:03:13Z" duration-ms="31564">
+      <class name="bettervet.mobile.app.tests.LoginTests">
+        <test-method is-config="true" signature="setCapabilities()[pri:0, instance:bettervet.mobile.app.tests.LoginTests@50de186c]" started-at="2022-07-17T07:02:42Z" name="setCapabilities" finished-at="2022-07-17T07:02:51Z" duration-ms="9615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCapabilities -->
+        <test-method signature="negativeLoginWithInvalidCredentials()[pri:0, instance:bettervet.mobile.app.tests.LoginTests@50de186c]" started-at="2022-07-17T07:02:51Z" name="negativeLoginWithInvalidCredentials" finished-at="2022-07-17T07:03:13Z" duration-ms="21545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:bettervet.mobile.app.tests.LoginTests@50de186c]" started-at="2022-07-17T07:03:13Z" name="shutDown" finished-at="2022-07-17T07:03:13Z" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- bettervet.mobile.app.tests.LoginTests -->
+    </test> <!-- Negative Login Test - Invalid Credentials -->
+    <test started-at="2022-07-17T07:03:13Z" name="Negative Login Test - Error Messages" finished-at="2022-07-17T07:03:36Z" duration-ms="22716">
+      <class name="bettervet.mobile.app.tests.LoginTests">
+        <test-method is-config="true" signature="setCapabilities()[pri:0, instance:bettervet.mobile.app.tests.LoginTests@432038ec]" started-at="2022-07-17T07:03:13Z" name="setCapabilities" finished-at="2022-07-17T07:03:23Z" duration-ms="9907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCapabilities -->
+        <test-method signature="negativeLoginErrors(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:bettervet.mobile.app.tests.LoginTests@432038ec]" started-at="2022-07-17T07:03:23Z" name="negativeLoginErrors" finished-at="2022-07-17T07:03:36Z" duration-ms="12527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[juancarlosgularte@bettervet.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your password must contain at least one number, a capital letter and a minimum of 6 characters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginErrors -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:bettervet.mobile.app.tests.LoginTests@432038ec]" started-at="2022-07-17T07:03:36Z" name="shutDown" finished-at="2022-07-17T07:03:36Z" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method is-config="true" signature="stopAppium()[pri:0, instance:bettervet.mobile.app.tests.LoginTests@432038ec]" started-at="2022-07-17T07:03:36Z" name="stopAppium" finished-at="2022-07-17T07:03:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppium -->
+      </class> <!-- bettervet.mobile.app.tests.LoginTests -->
+    </test> <!-- Negative Login Test - Error Messages -->
+  </suite> <!-- Mobile App - Login Tests -->
+</testng-results>
