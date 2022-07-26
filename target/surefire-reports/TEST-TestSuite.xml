@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="68.057" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="198.673" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AR"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-18.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/juan.gularte/Downloads/Java-Appium-MobileWeb/target/surefire/surefirebooter-20220726021500543_3.jar /Users/juan.gularte/Downloads/Java-Appium-MobileWeb/target/surefire 2022-07-26T02-14-59_750-jvmRun1 surefire-20220726021500543_1tmp surefire_0-20220726021500543_2tmp"/>
+    <property name="sun.java.command" value="/Users/juan.gularte/Downloads/Java-Appium-MobileWeb/target/surefire/surefirebooter-20220726150207791_3.jar /Users/juan.gularte/Downloads/Java-Appium-MobileWeb/target/surefire 2022-07-26T15-02-07_179-jvmRun1 surefire-20220726150207791_1tmp surefire_0-20220726150207791_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/juan.gularte/Downloads/Java-Appium-MobileWeb/target/test-classes:/Users/juan.gularte/Downloads/Java-Appium-MobileWeb/target/classes:/Users/juan.gularte/.m2/repository/io/appium/java-client/8.1.1/java-client-8.1.1.jar:/Users/juan.gularte/.m2/repository/org/seleniumhq/selenium/selenium-api/4.3.0/selenium-api-4.3.0.jar:/Users/juan.gularte/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.3.0/selenium-remote-driver-4.3.0.jar:/Users/juan.gularte/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/juan.gularte/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/juan.gularte/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-buffer/4.1.78.Final/netty-buffer-4.1.78.Final.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-codec-http/4.1.78.Final/netty-codec-http-4.1.78.Final.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-codec/4.1.78.Final/netty-codec-4.1.78.Final.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-handler/4.1.78.Final/netty-handler-4.1.78.Final.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-common/4.1.78.Final/netty-common-4.1.78.Final.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.78.Final/netty-transport-classes-epoll-4.1.78.Final.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.78.Final/netty-transport-classes-kqueue-4.1.78.Final.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-transport-native-epoll/4.1.78.Final/netty-transport-native-epoll-4.1.78.Final.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.78.Final/netty-transport-native-kqueue-4.1.78.Final.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.78.Final/netty-transport-native-unix-common-4.1.78.Final.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-transport/4.1.78.Final/netty-transport-4.1.78.Final.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-resolver/4.1.78.Final/netty-resolver-4.1.78.Final.jar:/Users/juan.gularte/.m2/repository/io/opentelemetry/opentelemetry-api/1.15.0/opentelemetry-api-1.15.0.jar:/Users/juan.gularte/.m2/repository/io/opentelemetry/opentelemetry-context/1.15.0/opentelemetry-context-1.15.0.jar:/Users/juan.gularte/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.15.0/opentelemetry-exporter-logging-1.15.0.jar:/Users/juan.gularte/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.15.0/opentelemetry-sdk-metrics-1.15.0.jar:/Users/juan.gularte/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.15.0-alpha/opentelemetry-sdk-logs-1.15.0-alpha.jar:/Users/juan.gularte/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.15.0/opentelemetry-sdk-common-1.15.0.jar:/Users/juan.gularte/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.15.0/opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar:/Users/juan.gularte/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.15.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar:/Users/juan.gularte/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.15.0/opentelemetry-sdk-trace-1.15.0.jar:/Users/juan.gularte/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.15.0/opentelemetry-sdk-1.15.0.jar:/Users/juan.gularte/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.15.0-alpha/opentelemetry-semconv-1.15.0-alpha.jar:/Users/juan.gularte/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/juan.gularte/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/juan.gularte/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/juan.gularte/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/juan.gularte/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/juan.gularte/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/juan.gularte/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/juan.gularte/.m2/repository/org/seleniumhq/selenium/selenium-http/4.3.0/selenium-http-4.3.0.jar:/Users/juan.gularte/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/juan.gularte/.m2/repository/org/seleniumhq/selenium/selenium-json/4.3.0/selenium-json-4.3.0.jar:/Users/juan.gularte/.m2/repository/org/seleniumhq/selenium/selenium-support/4.3.0/selenium-support-4.3.0.jar:/Users/juan.gularte/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/juan.gularte/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/juan.gularte/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/juan.gularte/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/juan.gularte/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/juan.gularte/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/juan.gularte/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/juan.gularte/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/juan.gularte/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/juan.gularte/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/juan.gularte/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/juan.gularte/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/juan.gularte/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/juan.gularte/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/juan.gularte/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/juan.gularte/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/juan.gularte/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/juan.gularte/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/juan.gularte/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/juan.gularte/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/juan.gularte/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/juan.gularte/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/juan.gularte/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/juan.gularte/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/juan.gularte/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/juan.gularte/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/juan.gularte/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/juan.gularte/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/juan.gularte/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/juan.gularte/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/juan.gularte/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/juan.gularte/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/juan.gularte/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/Users/juan.gularte/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/juan.gularte/Downloads/Java-Appium-MobileWeb/target/surefire/surefirebooter-20220726021500543_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/juan.gularte/Downloads/Java-Appium-MobileWeb/target/surefire/surefirebooter-20220726150207791_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="18.0.2+9-61"/>
@@ -56,20 +56,20 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="positiveLogin[jcgularte@spplus.com, Helloworld10](1)" classname="parking.tests.LoginTests" time="16.615">
+  <testcase name="positiveLogin[jcgularte@spplus.com, Helloworld10](1)" classname="parking.tests.LoginTests" time="32.088">
     <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
-[main] 02:15:02,597 INFO  [Positive Login Test] [TEST Positive Login Test STARTED]
-[main] 02:15:02,793 DEBUG [InternalLoggerFactory] Using Log4J2 as the default logging framework
-[main] 02:15:02,796 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple
-[main] 02:15:02,797 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4
-[main] 02:15:02,801 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@29ad44e3
-[main] 02:15:02,817 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false
-[main] 02:15:02,817 DEBUG [PlatformDependent0] Java version: 18
-[main] 02:15:02,834 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available
-[main] 02:15:02,841 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available
-[main] 02:15:02,843 DEBUG [PlatformDependent0] sun.misc.Unsafe.storeFence: available
-[main] 02:15:02,845 DEBUG [PlatformDependent0] java.nio.Buffer.address: available
-[main] 02:15:02,845 DEBUG [PlatformDependent0] direct buffer constructor: unavailable
+[main] 15:02:09,768 INFO  [Positive Login Test] [TEST Positive Login Test STARTED]
+[main] 15:02:09,942 DEBUG [InternalLoggerFactory] Using Log4J2 as the default logging framework
+[main] 15:02:09,946 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple
+[main] 15:02:09,946 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4
+[main] 15:02:09,949 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@120f38e6
+[main] 15:02:09,961 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false
+[main] 15:02:09,961 DEBUG [PlatformDependent0] Java version: 18
+[main] 15:02:09,962 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available
+[main] 15:02:09,963 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available
+[main] 15:02:09,963 DEBUG [PlatformDependent0] sun.misc.Unsafe.storeFence: available
+[main] 15:02:09,964 DEBUG [PlatformDependent0] java.nio.Buffer.address: available
+[main] 15:02:09,964 DEBUG [PlatformDependent0] direct buffer constructor: unavailable
 java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.78.Final.jar:4.1.78.Final]
 	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.78.Final.jar:4.1.78.Final]
@@ -93,7 +93,7 @@ java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at io.appium.java_client.remote.AppiumCommandExecutor.<init>(AppiumCommandExecutor.java:87) [java-client-8.1.1.jar:?]
 	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:87) [java-client-8.1.1.jar:?]
 	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:116) [java-client-8.1.1.jar:?]
-	at parking.base.BaseMethods.setCapabilities(BaseMethods.java:30) [classes/:?]
+	at parking.base.BaseMethods.setCapabilities(BaseMethods.java:49) [classes/:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124) [testng-6.14.3.jar:?]
@@ -120,8 +120,8 @@ java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
-[main] 02:15:02,881 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true
-[main] 02:15:02,883 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+[main] 15:02:09,978 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true
+[main] 15:02:09,980 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
 java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @20c067f
 	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:394) ~[?:?]
 	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
@@ -147,7 +147,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 	at io.appium.java_client.remote.AppiumCommandExecutor.<init>(AppiumCommandExecutor.java:87) [java-client-8.1.1.jar:?]
 	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:87) [java-client-8.1.1.jar:?]
 	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:116) [java-client-8.1.1.jar:?]
-	at parking.base.BaseMethods.setCapabilities(BaseMethods.java:30) [classes/:?]
+	at parking.base.BaseMethods.setCapabilities(BaseMethods.java:49) [classes/:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124) [testng-6.14.3.jar:?]
@@ -174,84 +174,84 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
-[main] 02:15:02,886 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): unavailable
-[main] 02:15:02,886 DEBUG [PlatformDependent] sun.misc.Unsafe: available
-[main] 02:15:02,889 DEBUG [PlatformDependent] maxDirectMemory: 4294967296 bytes (maybe)
-[main] 02:15:02,889 DEBUG [PlatformDependent] -Dio.netty.tmpdir: /var/folders/by/8p35vf5j5d72b2ls4cc_s5rc0000gp/T (java.io.tmpdir)
-[main] 02:15:02,889 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[main] 02:15:02,890 DEBUG [PlatformDependent] Platform: MacOS
-[main] 02:15:02,891 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: -1 bytes
-[main] 02:15:02,891 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1
-[main] 02:15:02,896 DEBUG [CleanerJava9] java.nio.ByteBuffer.cleaner(): available
-[main] 02:15:02,896 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false
-[main] 02:15:02,902 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available
-[main] 02:15:02,914 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-[main] 02:15:02,915 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-[main] 02:15:02,938 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-[main] 02:15:02,938 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-[main] 02:15:02,964 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16
-[main] 02:15:03,013 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false
-[main] 02:15:03,013 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512
-[main] 02:15:03,018 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@16943e88
-[main] 02:15:03,019 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5a4ed68f
-[main] 02:15:03,019 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@367795c7
-[main] 02:15:03,019 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@d2387c8
-[main] 02:15:03,019 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3956b302
-[main] 02:15:03,019 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1500e009
-[main] 02:15:03,019 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1fd386c3
-[main] 02:15:03,019 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@edf4f36
-[main] 02:15:03,020 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@29d334c
-[main] 02:15:03,020 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@100f9bbe
-[main] 02:15:03,020 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@13e9f2e2
-[main] 02:15:03,021 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@673bb956
-[main] 02:15:03,021 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@cd7f1ae
-[main] 02:15:03,021 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@60e949e1
-[main] 02:15:03,021 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3c4bc9fc
-[main] 02:15:03,021 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@680362a
-[main] 02:15:03,039 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16
-[main] 02:15:03,039 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16
-[main] 02:15:03,039 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192
-[main] 02:15:03,039 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 9
-[main] 02:15:03,039 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 4194304
-[main] 02:15:03,040 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256
-[main] 02:15:03,040 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64
-[main] 02:15:03,040 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-[main] 02:15:03,040 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192
-[main] 02:15:03,040 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-[main] 02:15:03,040 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: false
-[main] 02:15:03,040 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-[main] 02:15:03,048 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled
-[main] 02:15:03,048 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0
-[main] 02:15:03,048 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384
-[Forwarding newSession on session null to remote] 02:15:03,283 DEBUG [DefaultChannelId] -Dio.netty.processId: 82357 (auto-detected)
-[Forwarding newSession on session null to remote] 02:15:03,285 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false
-[Forwarding newSession on session null to remote] 02:15:03,285 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false
-[Forwarding newSession on session null to remote] 02:15:03,289 DEBUG [NetUtilInitializations] Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
-[Forwarding newSession on session null to remote] 02:15:03,290 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
-[Forwarding newSession on session null to remote] 02:15:03,291 DEBUG [DefaultChannelId] -Dio.netty.machineId: bc:d0:74:ff:fe:19:d8:bf (auto-detected)
-[AsyncHttpClient-1-2] 02:15:03,330 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true
-[AsyncHttpClient-1-2] 02:15:03,331 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true
-[AsyncHttpClient-1-2] 02:15:03,331 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2eb9728e
-[AsyncHttpClient-1-2] 02:15:03,348 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096
-[AsyncHttpClient-1-2] 02:15:03,349 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8
-[AsyncHttpClient-1-2] 02:15:03,349 DEBUG [Recycler] -Dio.netty.recycler.chunkSize: 32
-[AsyncHttpClient-1-2] 02:15:03,349 DEBUG [Recycler] -Dio.netty.recycler.blocking: false
-[AsyncHttpClient-1-2] 02:15:09,450 DEBUG [Brotli] brotli4j not in the classpath; Brotli support will be unavailable.
-App is up and running.
-[main] 02:15:17,331 INFO  [Positive Login Test] [Starting positiveLogin]
-[main] 02:15:33,935 INFO  [Positive Login Test] [Test positiveLogin passed]
+[main] 15:02:09,982 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[main] 15:02:09,982 DEBUG [PlatformDependent] sun.misc.Unsafe: available
+[main] 15:02:09,987 DEBUG [PlatformDependent] maxDirectMemory: 4294967296 bytes (maybe)
+[main] 15:02:09,988 DEBUG [PlatformDependent] -Dio.netty.tmpdir: /var/folders/by/8p35vf5j5d72b2ls4cc_s5rc0000gp/T (java.io.tmpdir)
+[main] 15:02:09,988 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[main] 15:02:09,989 DEBUG [PlatformDependent] Platform: MacOS
+[main] 15:02:09,989 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: -1 bytes
+[main] 15:02:09,990 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[main] 15:02:09,996 DEBUG [CleanerJava9] java.nio.ByteBuffer.cleaner(): available
+[main] 15:02:09,997 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false
+[main] 15:02:10,003 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available
+[main] 15:02:10,027 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[main] 15:02:10,027 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[main] 15:02:10,057 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[main] 15:02:10,057 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[main] 15:02:10,073 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16
+[main] 15:02:10,119 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false
+[main] 15:02:10,120 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512
+[main] 15:02:10,128 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@c7a977f
+[main] 15:02:10,129 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@76304b46
+[main] 15:02:10,129 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@2fa3be26
+[main] 15:02:10,129 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4287d447
+[main] 15:02:10,129 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3af37506
+[main] 15:02:10,129 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4e6d7365
+[main] 15:02:10,130 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7c0da600
+[main] 15:02:10,130 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@d4602a
+[main] 15:02:10,130 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@21ae6e73
+[main] 15:02:10,130 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@47dd778
+[main] 15:02:10,130 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@15515c51
+[main] 15:02:10,131 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@36a7abe1
+[main] 15:02:10,131 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@64a896b0
+[main] 15:02:10,131 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@e044b4a
+[main] 15:02:10,131 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@11a82d0f
+[main] 15:02:10,131 TRACE [NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1adb7478
+[main] 15:02:10,152 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16
+[main] 15:02:10,152 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16
+[main] 15:02:10,152 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192
+[main] 15:02:10,152 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 9
+[main] 15:02:10,152 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 4194304
+[main] 15:02:10,152 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256
+[main] 15:02:10,152 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64
+[main] 15:02:10,152 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[main] 15:02:10,152 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192
+[main] 15:02:10,153 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[main] 15:02:10,153 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: false
+[main] 15:02:10,153 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[main] 15:02:10,160 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled
+[main] 15:02:10,160 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0
+[main] 15:02:10,160 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[Forwarding newSession on session null to remote] 15:02:10,573 DEBUG [DefaultChannelId] -Dio.netty.processId: 9648 (auto-detected)
+[Forwarding newSession on session null to remote] 15:02:10,577 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false
+[Forwarding newSession on session null to remote] 15:02:10,577 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false
+[Forwarding newSession on session null to remote] 15:02:10,582 DEBUG [NetUtilInitializations] Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+[Forwarding newSession on session null to remote] 15:02:10,583 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+[Forwarding newSession on session null to remote] 15:02:10,585 DEBUG [DefaultChannelId] -Dio.netty.machineId: bc:d0:74:ff:fe:19:d8:bf (auto-detected)
+[AsyncHttpClient-1-2] 15:02:10,620 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true
+[AsyncHttpClient-1-2] 15:02:10,621 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true
+[AsyncHttpClient-1-2] 15:02:10,621 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@44bfa6ed
+[AsyncHttpClient-1-2] 15:02:10,861 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096
+[AsyncHttpClient-1-2] 15:02:10,862 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8
+[AsyncHttpClient-1-2] 15:02:10,862 DEBUG [Recycler] -Dio.netty.recycler.chunkSize: 32
+[AsyncHttpClient-1-2] 15:02:10,862 DEBUG [Recycler] -Dio.netty.recycler.blocking: false
+[AsyncHttpClient-1-2] 15:02:11,130 DEBUG [InsecureTrustManagerFactory] Accepting a server certificate: CN=ondemand.us-west-1.saucelabs.com
+[AsyncHttpClient-1-2] 15:02:11,388 DEBUG [SslHandler] [id: 0xe8460643, L:/192.168.0.100:56213 - R:ondemand.us-west-1.saucelabs.com/66.85.52.224:443] HANDSHAKEN: protocol:TLSv1.2 cipher suite:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[AsyncHttpClient-1-2] 15:02:56,835 DEBUG [Brotli] brotli4j not in the classpath; Brotli support will be unavailable.
+[main] 15:03:14,391 INFO  [Positive Login Test] [Starting positiveLogin]
+[main] 15:03:46,463 INFO  [Positive Login Test] [Test positiveLogin passed]
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="negativeLoginWithInvalidCredentials[jcgularte@spplus.com, IncorrectPwd, Your email address and/or password are incorrect. Please try again.](1)" classname="parking.tests.LoginTests" time="20.557">
-    <system-out><![CDATA[[main] 02:15:34,368 INFO  [Positive Login Test] [ALL Positive Login Test FINISHED]
-[main] 02:15:34,371 INFO  [Negative Login Test - Invalid Credentials] [TEST Negative Login Test - Invalid Credentials STARTED]
-App is up and running.
-[main] 02:15:47,948 INFO  [Negative Login Test - Invalid Credentials] [Starting negativeLoginWithInvalidCredentials]
-[main] 02:16:08,497 INFO  [Negative Login Test - Invalid Credentials] [Test negativeLoginWithInvalidCredentials passed]
+  <testcase name="negativeLoginWithInvalidCredentials[jcgularte@spplus.com, IncorrectPwd, Your email address and/or password are incorrect. Please try again.](1)" classname="parking.tests.LoginTests" time="30.237">
+    <system-out><![CDATA[[main] 15:03:47,352 INFO  [Positive Login Test] [ALL Positive Login Test FINISHED]
+[main] 15:03:47,355 INFO  [Negative Login Test - Invalid Credentials] [TEST Negative Login Test - Invalid Credentials STARTED]
+[main] 15:04:55,794 INFO  [Negative Login Test - Invalid Credentials] [Starting negativeLoginWithInvalidCredentials]
+[main] 15:05:26,039 INFO  [Negative Login Test - Invalid Credentials] [Test negativeLoginWithInvalidCredentials passed]
 ]]></system-out>
   </testcase>
 </testsuite>

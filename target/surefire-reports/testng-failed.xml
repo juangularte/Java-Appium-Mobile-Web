@@ -10,7 +10,7 @@
     <classes>
       <class name="parking.tests.LoginTests">
         <methods>
-          <include name="positiveLogin" invocation-numbers="0"/>
+          <include name="positiveLogin"/>
           <include name="setCapabilities"/>
           <include name="shutDown"/>
         </methods>
@@ -24,7 +24,7 @@
     <classes>
       <class name="parking.tests.LoginTests">
         <methods>
-          <include name="negativeLoginWithInvalidCredentials" invocation-numbers="0"/>
+          <include name="negativeLoginWithInvalidCredentials"/>
           <include name="setCapabilities"/>
           <include name="shutDown"/>
         </methods>
